@@ -19,10 +19,44 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <a class="btn btn-primary" href="#signup">Sign Up</a>
+                <a class="navbar-brand" href="#!"><b>School Fees Payement</b></a>
+                <!--<a class="btn btn-primary" href="#signup">Sign Up</a>
+                <a class="btn btn-primary" href="https://laravel.com/docs">Docs</a>
+                <a class="btn btn-primary" href="https://laracasts.com">Laracasts</a>
+                <a class="btn btn-primary" href="https://laravel-news.com">News</a>
+                <a class="btn btn-primary" href="https://blog.laravel.com">Blog</a>
+                <a class="btn btn-primary" href="https://nova.laravel.com">Nova</a>
+                <a class="btn btn-primary" href="https://forge.laravel.com">Forge</a>
+                <a class="btn btn-primary" href="https://vapor.laravel.com">Vapor</a>
+                <a class="btn btn-primary" href="https://github.com/laravel/laravel">GitHub</a>-->
+                @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a class="btn btn-primary" href="{{ url('/home') }}">HomeLink</a>
+                    @else
+                        <a class="btn btn-primary" href="{{ route('login') }}">Login</a>
+
+                        @if (Route::has('register'))
+                            <a class="btn btn-primary" href="{{ route('register') }}">Sign Up</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
             </div>
         </nav>
+        <div class="flex-center position-ref full-height">
+
+
+            <div class="content">
+                <!--<div class="title m-b-md">
+                    Laravel
+                </div>-->
+
+                <div class="links">
+
+                </div>
+            </div>
+        </div>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container position-relative">
@@ -30,7 +64,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">Generate more leads with a professional landing page!</h1>
+                            <h1 class="mb-5">Electronic School Fees Payement Platform for Liberian Elementary, Junior and Senior High Schools!</h1>
                             <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->
@@ -78,29 +112,29 @@
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                            <h3><a class="nav-link" href="">Debit / Credit Card Payment</a></h3>
+                            <p class="lead mb-0">This option is for those who want to do fees paymenet using Debit /Credit Cards!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 5 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                            <h3><a  class="nav-link" href="" >Mobile Money Payment</a></h3>
+                            <p class="lead mb-0">Do you know that you can also pay using mobile money!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                            <h3><a  class="nav-link" href="" >Most Recent Payment History</a></h3>
+                            <p class="lead mb-0">Get the history of the 10 most recent school fees payments that you have made towards your child/ward education!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Image Showcases-->
-        <section class="showcase">
+        <!--<section class="showcase">
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
@@ -124,9 +158,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Testimonials-->
-        <section class="testimonials text-center bg-light">
+        <!--<section class="testimonials text-center bg-light">
             <div class="container">
                 <h2 class="mb-5">What people are saying...</h2>
                 <div class="row">
@@ -153,7 +187,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Call to Action-->
         <section class="call-to-action text-white text-center" id="signup">
             <div class="container position-relative">
