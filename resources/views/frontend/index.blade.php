@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Landing Page - Start Bootstrap Theme</title>
+        <title>Home Page</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -112,21 +112,21 @@
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3><a class="nav-link" href="">Debit / Credit Card Payment</a></h3>
+                            <h3><a class="nav-link" href="cardpay">Debit / Credit Card Payment</a></h3>
                             <p class="lead mb-0">This option is for those who want to do fees paymenet using Debit /Credit Cards!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3><a  class="nav-link" href="" >Mobile Money Payment</a></h3>
+                            <h3><a  class="nav-link" href="mobilepay">Mobile Money Payment</a></h3>
                             <p class="lead mb-0">Do you know that you can also pay using mobile money!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3><a  class="nav-link" href="" >Most Recent Payment History</a></h3>
+                            <h3><a  class="nav-link" href="recentpayment">Most Recent Payment History</a></h3>
                             <p class="lead mb-0">Get the history of the 10 most recent school fees payments that you have made towards your child/ward education!</p>
                         </div>
                     </div>

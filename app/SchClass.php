@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class SchClass extends Model
 {
     //
+    protected $fillable = [];
 }
