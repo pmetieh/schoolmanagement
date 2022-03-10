@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @include("includes.head")
+        @include("includes.admin_head")
     </head>
     <body>
         <div class="container">
         <!-- Navigation-->
         <div class="row">
-            @include("includes.header")
+            @include("includes.admin_header")
         </div>
         <div class="row">
             @yield("content")
         </div>
 
-        <!-- Footer -->
-
+        <!-- Call to Action-->
         <div class="row">
-            @include("includes.footer")
+        @include("includes.footer")
         </div>
         </div>
     </body>

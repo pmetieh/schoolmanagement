@@ -38,6 +38,10 @@ Route::get("recentpayment", function(){
     return view("frontend.recentpayment");
 });
 
+Route::get('dashboard/my', function(){
+    return view("my.myadmin");
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

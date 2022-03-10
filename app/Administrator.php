@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Administrator extends Model
 {
     //
-    protected $fillable = [];
+    protected $fillable = ['fname', 'lname','user_id', "school_id"];
 }

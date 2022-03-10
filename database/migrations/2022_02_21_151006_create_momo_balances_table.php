@@ -15,6 +15,7 @@ class CreateMomoBalancesTable extends Migration
     {
         Schema::create('momo_balances', function (Blueprint $table) {
             $table->id();
+            $table->decimal('balance');
             $table->timestamps();
         });
     }

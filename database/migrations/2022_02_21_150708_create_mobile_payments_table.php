@@ -15,7 +15,16 @@ class CreateMobilePaymentsTable extends Migration
     {
         Schema::create('mobile_payments', function (Blueprint $table) {
             $table->id();
+            $table->string('school_id');
+            $table->string('guardian_id');
+            $table->string('student_id');
+            $table->string('mobileNo');
+            $table->string('amntpaid');
+            $table->string('currency');
+            $table->string('description');
             $table->timestamps();
+
+
         });
     }
 
