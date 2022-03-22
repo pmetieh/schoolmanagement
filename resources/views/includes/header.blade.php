@@ -6,6 +6,7 @@
         <div class="top-right links">
             @auth
                 <a class="btn btn-primary" href="{{ url('/home') }}">HomeLink</a>
+                <span></span><span>{{auth::user()->name}}</span>
             @else
                 <a class="btn btn-primary" href="{{ route('login') }}">Login</a>
 

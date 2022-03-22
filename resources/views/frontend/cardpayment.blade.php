@@ -1,4 +1,4 @@
-@extends('layouts.master', ['pageTitle'=>'Card Payment'])
+@extends('layouts.master_payment', ['pageTitle'=>'Card Payment'])
 @section('content')
 <div class="row">
 	<h1>Pay with your debit card</h1>

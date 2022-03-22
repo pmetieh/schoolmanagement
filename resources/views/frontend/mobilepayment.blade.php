@@ -19,7 +19,7 @@
 		</div>
 	</div>
 
-	
+
 
 	<div class="form-group">
 		<label for="customerEmail" class="col-md-6 control-label">Email Address</label>
@@ -27,7 +27,7 @@
 			<input type="text" class="form-control" id="email" name="email" placeholder="Email Address" />
 		</div>
 	</div>
-	
+
 	<div class="form-group">
 		<label for="customerPhoneNumber" class="col-md-6 control-label">Phone Number</label>
 		<div class="col-md-6">
@@ -35,14 +35,14 @@
 		</div>
 	</div>
 
-	
+
 
 	<div class="form-group">
 		<label for="description" class="col-md-6 control-label">Description</label>
 		<div class="col-md-6">
 			<input type="text" class="form-control" id="description" name="description" value="Entrance Exam"/>
 			<input type="hidden" class="form-control" id="referenceNumber" name="referenceNumber" value="refNumber" />
-			
+
 		</div>
 	</div>
 
@@ -54,8 +54,8 @@
 		</div>
 	</div>
 
-	
-	
+
+
 
 	<div class="form-group">
 		<label for="description" class="col-md-6 control-label">Currency Code</label>
@@ -71,7 +71,7 @@
 	</div>
 	<br/>
 	<br/>
-	
+
 <!--</div>-->
  <div class="row">
  	<div class="form-group">
